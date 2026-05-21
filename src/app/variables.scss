@@ -4,12 +4,12 @@
 --bg-section : white;
 
 //Border Radius
---br-block:24px;
---br-button: 8px;
+--br-button:24px;
+--br-block: 8px;
 
 //Text Color
 --tc-primary: rgb(29, 26, 26);
---tc-secondary:grey;
+--tc-secondary:rgb(112, 112, 112);
 //Font size
 --fs-h1: clamp(4rem, 2.3941rem + 6.5882vw, 7.5rem); //64-120
 --fs-xl: clamp(3rem, 2.3118rem + 2.8235vw, 4.5rem); //48-72

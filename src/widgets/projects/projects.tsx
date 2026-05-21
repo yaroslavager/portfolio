@@ -3,8 +3,8 @@ import ProjectsCard from "./projectsCard"
 
 function Projects(){
     return(
-        <section>
-        <h2>Projects</h2>
+        <section className="projects">
+        <h2 className="projects__title">Проекты</h2>
         <ProjectsCard/>
         </section>
     )
