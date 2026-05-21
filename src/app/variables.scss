@@ -1,7 +1,7 @@
 :root{
 //Background
 --bg-main: rgba(150, 167, 223, 0.103);
---bg-section :;
+--bg-section : white;
 
 //Border Radius
 --br-block:24px;
@@ -9,10 +9,12 @@
 
 //Text Color
 --tc-primary: rgb(29, 26, 26);
---tc-secondary:;
+--tc-secondary:grey;
 //Font size
---fs-xl:;
---fs-l:;
---fs-m:;
---fs-s:;
+--fs-h1: clamp(4rem, 2.3941rem + 6.5882vw, 7.5rem); //64-120
+--fs-xl: clamp(3rem, 2.3118rem + 2.8235vw, 4.5rem); //48-72
+--fs-l: clamp(1.875rem, 1.5882rem + 1.1765vw, 2.5rem) ; //30-40
+--fs-m:clamp(1.125rem, 0.9529rem + 0.7059vw, 1.5rem); //18-24
+--fs-s:clamp(0.875rem, 0.7603rem + 0.4706vw, 1.125rem) ; //14-18
+
 }

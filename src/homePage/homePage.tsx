@@ -9,6 +9,7 @@ function HomePage(){
 <Header/>
 <main>
 <Hero/>
+
 <Projects/>
 </main>
 </div>
