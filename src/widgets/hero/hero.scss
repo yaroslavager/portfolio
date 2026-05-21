@@ -1,0 +1,21 @@
+.hero{
+    margin-bottom: 178px;
+    &__left{
+        display: flex;
+        flex-direction: column;
+        gap: 1.5rem;
+    }
+    &__title{
+        font-size: var(--fs-xl);
+    }
+&__img{
+    position: absolute;
+    width: 500px;
+    top: -5%;
+    left: 60%;
+    z-index: 0;
+}
+
+
+
+}
