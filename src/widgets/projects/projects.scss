@@ -4,6 +4,10 @@
    align-items: center;
    &__title{
     font-size: var(--fs-l);
-    margin-bottom: 2rem;
+    margin-bottom: clamp(1.5rem, -0.1059rem + 6.5882vw, 5rem);
+     background-image: var(--gradient) ;
+    background-repeat: no-repeat;
+  background-position: left bottom ; 
+  background-size: 100% 4px;
    }
 }

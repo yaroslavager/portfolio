@@ -20,7 +20,7 @@ export const projects: Project[] = [
       "Адаптивная верстка",
       "Строгая типизация"
     ],
-    img: "./imgs/projects/clothing-store.jpg",
+    img: "./imgs/projects/clothingstore.jpg",
   },
   {
      id: "2",

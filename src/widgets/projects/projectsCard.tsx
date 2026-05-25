@@ -10,6 +10,9 @@ function ProjectsCard(){
 <div className="projects-card__left">
     <h3 className="projects-card__project-name">{project.name}</h3>
     <p className="projects-card__description">{project.description}</p>
+    <ul>{project.feature.map((el, index)=>(
+        <li className="projects-card__list" key={index}>{el}</li>
+    ))}</ul>
     <a className="projects-card__link" href={project.link}>Перейти</a>
 </div>
 <div className="projects-card__right"><img className="projects-card__img" src={project.img} alt="" /></div>
