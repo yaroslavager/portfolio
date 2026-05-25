@@ -3,6 +3,7 @@
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     width: clamp(22.375rem, 4.1941rem + 74.5882vw, 62rem);
+    
     max-height: 550px;
     background-color: var(--bg-section);
     margin-bottom: clamp(1rem, 0.7706rem + 0.9412vw, 1.5rem);
