@@ -13,7 +13,7 @@ export const projects: Project[] = [
     id: "1",
     name: "Clothing Store",
     description: "Многостраничный интернет-магазин одежды. ",
-    link: "",
+    link: "https://clothing-store-ecru-two.vercel.app",
     feature: [
       "Система фильтрации и сортировки товаров",
       "Корзина покупок с сохранением состояния между сессиями",

@@ -13,7 +13,7 @@ function ProjectsCard(){
     <ul>{project.feature.map((el, index)=>(
         <li className="projects-card__list" key={index}>{el}</li>
     ))}</ul>
-    <a className="projects-card__link" href={project.link}>Перейти</a>
+    <a className="projects-card__link"  target="_blank" href={project.link}>Перейти</a>
 </div>
 <div className="projects-card__right"><img className="projects-card__img" src={project.img} alt="" /></div>
 
