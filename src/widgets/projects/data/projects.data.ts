@@ -1,4 +1,6 @@
+
 interface Project {
+    id: string,
   name: string;
   description: string;
   link: string;
@@ -8,32 +10,35 @@ interface Project {
 
 export const projects: Project[] = [
   {
+    id: "1",
     name: "Clothing Store",
     description: "Многостраничный интернет-магазин одежды. ",
-    link: "",
+    link: "https://clothing-store-ecru-two.vercel.app",
     feature: [
       "Система фильтрации и сортировки товаров",
       "Корзина покупок с сохранением состояния между сессиями",
       "Адаптивная верстка",
       "Строгая типизация"
     ],
-    img: "",
+    img: "./imgs/projects/clothingstore.jpg",
   },
   {
+     id: "2",
     name: "Weather App",
     description:
-      "Минималистичный трекер погоды с интеграцией стороннего Api. Создан с целью практики с асинхронными запросами, строгой типизацией и управления глобальным состоянием.",
-    link: "",
+      "Минималистичный трекер погоды.",
+    link: "https://yaroslavager-weather-app.vercel.app/",
     feature: [
       "Переключение темы день/ночь",
       "Адаптивная верстка",
       "Сохранение состояние Zustand",
       "Прогноз каждый 3 часа"
     ],
-    img: "",
+    img: "./imgs/projects/weatherapp.jpg",
   },
   {
-    name: "ToDo list",
+     id: "3",
+    name: "ToDo List",
     description: "",
     link: "",
     feature: [
@@ -41,6 +46,6 @@ export const projects: Project[] = [
       "Сохранение через localStorage",
       "Переключение темы"
     ],
-    img: "",
+    img: "./imgs/projects/todo.jpg",
   },
 ];
