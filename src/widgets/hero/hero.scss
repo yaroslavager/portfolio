@@ -25,6 +25,9 @@
     
   }
   &__button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
     width: 115px;
     height: 42px;
     border-radius: var(--br-block);
@@ -33,7 +36,7 @@
     cursor: pointer;
         font-weight: bold;
         color: white;
- 
+
   }
   &__right {
     display: flex;
