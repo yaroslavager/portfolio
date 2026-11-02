@@ -11,9 +11,13 @@ function Hero() {
           написан самостоятельно. ИИ использовался для объяснения концепций,
           поиска информации и разбора ошибок.
         </p>
+        <div className="hero__button_wrapper">
         <a href="#projects"
          className="hero__button"
          >Проекты</a>
+<a target="_blank" className="hero__button hero__button_github" href="https://github.com/yaroslavager">GitHub</a>
+</div>
+
       </div>
       <div className="hero__right">
         <img className="hero__img" src="./imgs/hero/yara2.png" alt="" />

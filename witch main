@@ -1,0 +1,16 @@
+  feat/favicon                          [m e4d04d8 fix: update project links
+* [32mfeat/hero                             [m 19da9a2 feat: wip
+  feat/layout                           [m 63f37b0 feat/finished-layout
+  feat/projects                         [m 079ec3b [[34morigin/feat/projects[m] fix: resolve production build errors
+  feat/scroll-to-projects               [m bab27f8 [[34morigin/feat/scroll-to-projects[m] feat: added scroll to projects
+  fix/hero-text                         [m 841a01d [[34morigin/fix/hero-text[m] fix: update hero text
+  fix/update-links                      [m e4d04d8 [[34morigin/fix/update-links[m] fix: update project links
+  main                                  [m dbc3d67 [[34morigin/main[m: behind 4] Merge pull request #3 from yaroslavager/fix/update-links
+  [31mremotes/origin/HEAD                   [m -> origin/main
+  [31mremotes/origin/feat/favicon           [m 0ef63d2 feat:add favicon
+  [31mremotes/origin/feat/layout            [m 63f37b0 feat/finished-layout
+  [31mremotes/origin/feat/projects          [m 079ec3b fix: resolve production build errors
+  [31mremotes/origin/feat/scroll-to-projects[m bab27f8 feat: added scroll to projects
+  [31mremotes/origin/fix/hero-text          [m 841a01d fix: update hero text
+  [31mremotes/origin/fix/update-links       [m e4d04d8 fix: update project links
+  [31mremotes/origin/main                   [m 4368e78 Merge pull request #5 from yaroslavager/feat/scroll-to-projects
