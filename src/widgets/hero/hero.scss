@@ -24,6 +24,11 @@
     color: var(--tc-secondary);
     
   }
+  &__button_wrapper{
+display: flex;
+gap: 1rem;
+
+  }
   &__button{
     display: flex;
     justify-content: center;
@@ -36,7 +41,14 @@
     cursor: pointer;
         font-weight: bold;
         color: white;
-
+  }
+  &__button_github{
+    background: transparent;
+    color: var(--tc-primary);
+    border: 3px double var(--tc-primary);
+  }
+  &__button:hover{
+    box-shadow:  0 10px 15px rgba(0, 0, 0, 0.2);
   }
   &__right {
     display: flex;
