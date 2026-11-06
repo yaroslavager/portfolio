@@ -2,8 +2,13 @@
     display: flex;
     justify-content: space-between;
 
+&__nav{
+    display: flex;
+    gap: 1rem;
+}
+
 &__link{
-  
+  font-weight: bold;
 }
 
 
